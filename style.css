@@ -78,39 +78,3 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
-footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.flex-main {
-    display: flex;
-    justify-content: space-between;
-}
-
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;   
-}
-
-.main-content {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.image-container:nth-child(3n+2) {
-    flex-grow: 1;
-}
