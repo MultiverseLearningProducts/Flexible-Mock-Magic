@@ -78,3 +78,39 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+
+.main-content
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links
+{
+    display: flex; /* automatically places items in a row*/
+}
+
+.flex-main
+{
+    display: flex;
+}
+
+.sidebar
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.middle-child
+{
+    display: flex;
+    flex-grow: 5;
+}
