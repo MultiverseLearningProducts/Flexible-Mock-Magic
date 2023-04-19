@@ -78,3 +78,14 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+
+.main-content {
+    display: flex;
+    justify-content: right; 
+    flex-wrap: wrap; 
+}
+
+.nav-links {
+    display: flex;
+    justify-content: right;
+}
