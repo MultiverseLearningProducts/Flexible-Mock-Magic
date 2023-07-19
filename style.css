@@ -3,7 +3,9 @@
     font-family: sans-serif;
     font-size: 20px
 }
-.navbar {
+.navbar { /* How do I make the menu come to the left? */
+    display: flex;
+    justify-content: space-between;
     width: 100vw;
     background-color: #59D9A1;
     padding-left: 30px;
@@ -16,6 +18,7 @@
   
 .nav-links {
     list-style: none;
+    display: flex; /*Why do I need this here if navlinks is a child ? I heard Kieran mentioning that if you apply display:flex to a parent then it also carries over to the child */
 }
   
 .nav-item a {
@@ -51,6 +54,11 @@
 
 footer img {
     width: 3%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
 
 .flex-main {
