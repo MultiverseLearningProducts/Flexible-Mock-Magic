@@ -85,6 +85,11 @@ footer {
     justify-content: space-between;
 }
 
+img {
+    justify-content: left;
+    padding-left: 0px;
+}
+
 .nav-item, a{
     display: inline;
     list-style-type: none;
