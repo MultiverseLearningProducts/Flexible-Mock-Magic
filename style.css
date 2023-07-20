@@ -84,10 +84,28 @@ footer {
     justify-content: space-between;
 }
 
-li {
-    display: flex;
-    flex-wrap: wrap;
+.nav-item, a{
+    /* display: flex; */
+    display: inline;
+    /* flex-wrap: wrap; */
     flex-direction: row-reverse;
+
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.sidebar {
+    position: absolute;
+    flex: content;
+    left: 0px;
+    height: 100%;
+    
+
 }
 
 
