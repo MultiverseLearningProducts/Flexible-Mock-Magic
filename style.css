@@ -55,6 +55,9 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 footer img {
