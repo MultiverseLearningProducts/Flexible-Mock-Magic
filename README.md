@@ -1,5 +1,5 @@
 # Flexible Mock Magic
-
+muhanad is not the goat
 **GOAL**: You have been tasked with tasked with designing a mockup of a webpage for a new company that wants to create a social media platform for coders. They have provided the following mockup for their desired output.
 
 ![](./Exemplar/FinalPage.png)
