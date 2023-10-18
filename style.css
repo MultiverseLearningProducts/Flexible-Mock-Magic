@@ -66,7 +66,7 @@ footer img {
   height: 30vh;
   width: 20vw;
   background-color: #505ff9;
-  margin: 2rem;
+  margin-inline: 1rem;
   color: #fff;
   border: solid black 1px;
   display: flex;
@@ -78,6 +78,7 @@ footer img {
   border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
+  gap: 2em;
 }
 
 footer {
@@ -88,4 +89,17 @@ footer {
   justify-content: space-around;
 }
 
+#stretch {
+  flex-grow: 3;
+  order: 1;
+}
+
+.row {
+  display: flex;
+  flex-grow: 3;
+}
+
+#basis {
+  flex-basis: content;
+}
 /* CODE YOUR FLEXBOXES HERE */
