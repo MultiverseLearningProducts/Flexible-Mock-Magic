@@ -4,10 +4,11 @@
   font-size: 20px;
 }
 .navbar {
-  width: 100vw;
   background-color: #59d9a1;
   padding-left: 30px;
   padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
@@ -16,6 +17,7 @@
 
 .nav-links {
   list-style: none;
+  display: flex;
 }
 
 .nav-item a {
@@ -55,8 +57,9 @@ footer img {
 
 .flex-main {
   background-color: #f5f5f5;
-  width: 100%;
   padding-right: 2.5rem;
+  display: flex;
+  border: 1px solid rgb(47, 0, 255);
 }
 
 .image-container {
@@ -71,8 +74,13 @@ footer img {
   align-items: center;
 }
 
+.main-content {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 footer {
-  width: 100%;
   padding: 1rem;
   background-color: #59d9a1;
   display: flex;
