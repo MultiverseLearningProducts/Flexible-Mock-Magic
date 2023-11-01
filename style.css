@@ -59,6 +59,11 @@ footer img {
     padding-right: 2.5rem;
 }
 
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .image-container{
     height: 30vh;
     width: 20vw;
