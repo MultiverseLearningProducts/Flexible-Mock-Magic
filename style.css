@@ -4,6 +4,8 @@
   font-size: 20px;
 }
 .navbar {
+  display: flex;
+  justify-content: space-between;
   width: 100vw;
   background-color: #59d9a1;
   padding-left: 30px;
@@ -15,6 +17,9 @@
 }
 
 .nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: .7rem;
   list-style: none;
 }
 
