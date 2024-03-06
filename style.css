@@ -91,3 +91,24 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+.flex-main {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image-container {
+    /* margin: 0; */
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
