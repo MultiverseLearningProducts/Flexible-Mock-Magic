@@ -8,6 +8,7 @@
     background-color: #59D9A1;
     padding-left: 30px;
     padding-right: 10px;
+   
 }
   
 .logo {
@@ -16,6 +17,7 @@
   
 .nav-links {
     list-style: none;
+    flex-direction: ;
 }
   
 .nav-item a {
@@ -51,6 +53,11 @@
 
 footer img {
     width: 3%;
+    align-items: center;
+    margin: 8%
+
+
+
 }
 
 .flex-main {
@@ -73,8 +80,11 @@ footer img {
 
 footer {
     width: 100%;
+    height: 150;
     padding: 1rem;
     background-color: #59D9A1;
+    text-align: center;
+
 }
 
 /* CODE YOUR FLEXBOXES HERE */
