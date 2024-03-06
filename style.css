@@ -78,3 +78,7 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+
+nav {
+    display: flex;
+}
