@@ -83,12 +83,21 @@ footer img {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the icons container */
     align-items: center;
+    height: 100%;
     width: 100%;
-    padding: 1rem;
     background-color: #59D9A1;
 }
+
+.icons-container {
+    display: flex;
+    justify-content: space-between; /* Adjust space between icons */
+    align-items: center;
+    padding: 1rem;
+    padding-left: 500px;
+    padding-right: 500px;
+    }
 
 /* CODE YOUR FLEXBOXES HERE */
 .flex-main {
